@@ -18,7 +18,7 @@
         <module>feign</module>
         <module>ribbon</module>
         <module>service</module>
-        <module>service-slave</module>
+        <module>service2223</module>
         <module>zuul</module>
     </modules>
 

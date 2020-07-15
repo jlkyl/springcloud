@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @Slf4j
-public class ComputerController {
+public class ComputersController {
 
-    @RequestMapping(value="/add",method = RequestMethod.GET)
+    @RequestMapping(value="/adds",method = RequestMethod.GET)
     public Integer add(Integer a,Integer b){
         Integer r = a + b;
         log.info("/add,a:"+a+",b:"+b+",result:"+r.toString());
